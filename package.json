@@ -7,7 +7,7 @@
         "q": "1.0.1",
         "lodash": "2.4.1",
         "commander": "2.2.0",
-        "phantomjs": "1.9.7-5"
+        "phantomjs": "1.9.12"
     },
     "bin": {
         "gitbook-pdf": "./bin/gitbook-pdf.js"
