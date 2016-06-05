@@ -4,10 +4,10 @@
     "description": "PDF Generator for GitBook",
     "main": "lib/index.js",
     "dependencies": {
-        "q": "1.0.1",
-        "lodash": "2.4.1",
-        "commander": "2.2.0",
-        "phantomjs": "1.9.7-5"
+        "q": "^1.0.1",
+        "lodash": "^2.4.1",
+        "commander": "^2.2.0",
+        "phantomjs": "^1.9.7-5"
     },
     "bin": {
         "gitbook-pdf": "./bin/gitbook-pdf.js"
