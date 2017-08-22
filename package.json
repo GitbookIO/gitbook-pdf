@@ -1,30 +1,30 @@
 {
-    "name": "gitbook-pdf",
-    "version": "0.0.2",
-    "description": "PDF Generator for GitBook",
-    "main": "lib/index.js",
-    "dependencies": {
-        "q": "1.0.1",
-        "lodash": "2.4.1",
-        "commander": "2.2.0",
-        "phantomjs": "1.9.7-5"
-    },
-    "bin": {
-        "gitbook-pdf": "./bin/gitbook-pdf.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GitbookIO/gitbook-pdf.git"
-    },
-    "keywords": [
-        "git",
-        "book",
-        "gitbook",
-        "pdf"
-    ],
-    "author": "Samy Pessé <samypesse@gmail.com>",
-    "license": "Apache 2",
-    "bugs": {
-        "url": "https://github.com/GitbookIO/gitbook-pdf/issues"
-    }
+  "name": "gitbook-pdf",
+  "version": "0.0.2",
+  "description": "PDF Generator for GitBook",
+  "main": "lib/index.js",
+  "dependencies": {
+    "commander": "2.2.0",
+    "lodash": "2.4.1",
+    "phantomjs": "^2.1.7",
+    "q": "1.0.1"
+  },
+  "bin": {
+    "gitbook-pdf": "./bin/gitbook-pdf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitbookIO/gitbook-pdf.git"
+  },
+  "keywords": [
+    "git",
+    "book",
+    "gitbook",
+    "pdf"
+  ],
+  "author": "Samy Pessé <samypesse@gmail.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/GitbookIO/gitbook-pdf/issues"
+  }
 }
