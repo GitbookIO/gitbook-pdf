@@ -1,18 +1,12 @@
 #! /usr/bin/env node
 
 // Requires
-var Q = require('q');
 var _ = require('lodash');
 var path = require('path');
 var prog = require('commander');
 
 var pkg = require("../package.json");
 var pdf = require("../lib/index.js");
-
-var logError = function(err) {
-    console.log(err.message || err);
-    return Q.reject(err);
-};
 
 // General options
 prog
@@ -27,7 +21,10 @@ prog
     pdf.generate(input, output, options)
     .then(function() {
         console.log("Done!");
-    }, logError);
+    }, function(err) {
+        console.log(err.message || err);
+        return Promise.reject(err);
+    });
 });
 
 // Parse and fallback to help if no args
